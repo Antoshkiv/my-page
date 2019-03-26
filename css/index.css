@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Libre+Baskerville');
+
+:root {
+    --main-color:#e0a35e;
+    font-family: "Libre Baskerville" ;
+}
+
+head {
+    display: inline;
+}
+
+/* header .header-nav {
+    display:flex;
+}  
+burger menu
+*/
+
+body {
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background-image:url(../fon/header-fon.jpg);
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+header .logo {
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 1rem;
+    color: #ffcc00;
+    text-align: center;
+    margin: 20px 15px;
+}
+
+header .logo a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 1rem;
+    text-align: right;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+header .banner-text {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+header .banner-text .special-text {
+    font-family:"Great Vibes";
+    color: var(--main-color);
+    font-size:2rem;
+    margin:0;
+    
+}
+
+header .banner-text .big-names{
+    margin: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+
+.gold-text {
+    display: inline;
+    list-style-type: none;
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 1rem;
+    text-align: right;
+    color:  var(--main-color);
+}
+
+
+
+.special {
+     color:  #e0a35e;
+}
+
+@media (min-width:600px) {
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    header nav {
+        flex:1;
+    }
+}
