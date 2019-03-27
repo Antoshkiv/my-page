@@ -59,7 +59,7 @@ header .menu {
 header .menu li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--main-color)
+    color: white;
 }
 
 header .banner-text {
