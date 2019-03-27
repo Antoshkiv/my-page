@@ -36,7 +36,6 @@ header .logo {
 }
 
 header .logo a {
-    display: flex;
     justify-content: space-around;
     text-decoration: none;
     text-transform: uppercase;
@@ -79,9 +78,8 @@ header .banner-text {
 header .banner-text .special-text {
     font-family:"Great Vibes";
     color: var(--main-color);
-    font-size:2rem;
+    font-size:3rem;
     margin:0;
-    
 }
 
 header .banner-text .big-names{
@@ -93,9 +91,14 @@ header .banner-text .big-names{
 .banner-btn {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--main-color)
+    color: var(--main-color);
+    
 }
 
+header .banner-footer .phone{
+    display:flex;
+    
+}
 
 .gold-text {
     display: inline;
@@ -121,4 +124,86 @@ header .banner-text .big-names{
     header nav {
         flex:1;
     }
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: white;
+  font-size: 1rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #008fb3;
+  transition: all .3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+/* optional reset for presentation */
+* {
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+span {
+  display: block;
+  margin-top: 2rem;
+  font-size: .7rem;
+  color: #777;
+}
+span a {
+  font-size: .7rem;
+  color: #999;
+  text-decoration: underline;
+}
+
+.banner-footer {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 1rem;
+    text-align: right;
 }
