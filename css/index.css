@@ -32,7 +32,12 @@ header .logo {
     font-size: 1rem;
     color: #ffcc00;
     text-align: center;
-    margin: 20px 15px;
+}
+header .banner .header-nav .space-content {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
 }
 
 header .logo a {
@@ -124,6 +129,25 @@ header .banner-footer .phone{
     header nav {
         flex:1;
     }
+    main .before {
+        padding: 40px;
+    }
+
+    main .paragraph-text {
+        display: flex;
+        padding: 20px;
+    }
+    main .about-us {
+        padding: 50px;
+    }
+    main .menu {
+        padding: 50px;
+    }
+    main .menu-box {
+        display: flex;
+        justify-content: space-around;
+        flex-shrink: wrap;
+    }
 }
 
 
@@ -178,9 +202,9 @@ header .banner-footer .phone{
 
 .container {
   padding-top: 50px;
-  margin: 0 auto;
   width: 100%;
   text-align: center;
+  margin: 0px 0px 40px 0px;
 }
 
 span {
@@ -208,6 +232,52 @@ span a {
     text-align: right;
 }
 
-main {
-    
+main .special-text {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family:"Great Vibes";
+    color: var(--main-color);
+    font-size: 2rem;
+    margin:0;
+    margin-top: 20px;
 }
+
+main .title {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+}
+main .before {
+    padding: 30px;
+}
+
+
+main .paragraph-text p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main .menu {
+    padding: 40px;
+    background-image: url(../fon/white-fon.jpg)
+}
+
+main .menu-box .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+main .menu-box .box .menu-img {
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
