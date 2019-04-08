@@ -32,8 +32,12 @@ header .logo {
     font-size: 1rem;
     color: #ffcc00;
     text-align: center;
+}
+
+header .banner .header-nav .logo a{
     padding: 30px;
 }
+
 header .banner .header-nav .space-content {
     display: flex;
     margin-left: 80px;
