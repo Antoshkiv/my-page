@@ -322,12 +322,14 @@ main .menu-box .box .discription .dish-weight {
 main .reserve-table {
     background-image: url("../fon/blue-fon.jpg");
     max-height: 300px;
+    text-align: center;
 }
 
 main .reserve-table .reserve {
     display: flex;
     justify-content: center;
     padding: 30px 30px 30px 30px;
+    text-align: center;
 }
 
 main .reserve-table .reserve img {
@@ -343,10 +345,11 @@ main .reserve-table .reserve a {
 }
 
 main .reserve-table .reserve .big-names {
-        margin: 20px 20px 0px 20px;
+        margin: 20px 20px 10px 20px;
         font-size: 2rem;
         font-weight: bold;
         color: white;
+        text-align: center;
 }
 
 main .blog {
