@@ -153,6 +153,20 @@ header .banner-footer .phone{
         justify-content: space-around;
         flex-shrink: wrap;
     }
+
+    .footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
 }
 
 header .container .button {
@@ -274,6 +288,12 @@ main .menu {
     background-image: url(../fon/white-fon.jpg)
 }
 
+main .menu-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 main .menu-box .box {
     display: flex;
     flex-direction: column;
@@ -282,9 +302,273 @@ main .menu-box .box {
 }
 
 main .menu-box .box .menu-img {
-    display: flex;
+    max-height: 300px;
     max-width: 300px;
     max-height: 300px;
 }
 
+main .menu-box .box .discription .dish-name {
+    font-weight: bold;
+}
 
+main .menu-box .box .discription .dish-description {
+    color: gray;
+}
+main .menu-box .box .discription .dish-weight {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+main .reserve-table {
+    background-image: url("../fon/blue-fon.jpg");
+    max-height: 300px;
+}
+
+main .reserve-table .reserve {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+}
+
+main .reserve-table .reserve img {
+    width: 160px;
+    height: 160px;
+}
+
+main .reserve-table .reserve a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .reserve-table .reserve .big-names {
+        margin: 20px 20px 0px 20px;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+}
+
+main .blog {
+    background-image: url("../fon/white-fon.jpg");
+    min-height: 700px;
+    
+}
+
+main .blog-photo .blog-img img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    padding: 30px 30px 30px 30px;
+}
+
+
+main .blog .blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: #777;
+    border-style: solid;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+
+main .blog .blog-text .big-text {
+    font-weight: bold;
+    font-size: 1.5 rem;
+}
+
+main .blog .blog-text .next-text {
+    color: gray;
+    text-align: center;
+}
+
+main .blog .blog1 .blog-photo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .blog .blog2 .blog-photo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .blog .blog-text img {
+    max-width: 80px;
+    height: auto;
+}
+
+
+main .contact-find {
+    background-image: url("../fon/white-fon.jpg");
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+main .find {
+    background-color: #fff;
+    border-block-start-style: solid;
+    border-style: solid;
+    max-width: 600px;
+    max-height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+main .find img {
+    margin: 10px;
+    max-width: 80px;
+    height: auto;
+    border-style: solid;
+}
+
+main .find .phone {
+    color: tomato;
+}
+
+/*main .find .map  iframe{
+    height: 400;
+    width: 350;
+} */
+ 
+main .contact-find .open-hour {
+    background-image: url("../fon/blue-fon.jpg");
+    color: #fff;
+    width: 400px;
+    border-style: solid;
+    margin: 10px;
+    border-color: #ffcc00;
+}
+
+main .open-hour .head-open {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .open-hour .head-open .cafe-open {
+    font-weight: bold;
+}
+
+main .open-hour .time-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+main .open-hour .time-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+main .open-hour .time-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+main .open-hour .time-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+main .open-hour .time-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+main .open-hour .time-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+main .open-hour .time-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: tomato;
+    padding: 10px;
+}
+
+footer {
+    background-image: url("../fon/blue-fon.jpg");
+}
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
