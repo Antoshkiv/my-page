@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Book a table</title>
+    <link rel="stylesheet" href="css/book.css">
 </head>
 <body>
     <header>
-        <div id="logo">
-           <span><a href="index.html">DELICIOUS CAFE</a></span> 
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="book.html">Reservation</a></li>
-            </ul>
-        </nav>
-        <section>
-            <div>
-              <h1>BOOK A TABLE</h1>
+        <div class="banner">
+            <div class="header-nav">
+                <div class="logo">
+                    <a class="gold-text" href="index.html">DELICIOUS CAFE</a>
+                </div>
+                <div class="space-content"> </div>
+                <nav >
+                    <ul class="menu">
+                        <li><a class="gold-text" href="index.html">HOME</a></li>
+                        <li><a class="white-text" href="menu.html">MENU</a></li>
+                        <li><a class="white-text" href="about.html">ABOUT</a></li>
+                        <li><a class="white-text" href="contact.html">CONTACT</a></li>
+                        <li><a class="white-text" href="book.html">Reservation</a></li>
+                    </ul>
+                </nav>
+                </div>
             </div>
-        </section>
+            <div class="banner-text">
+                        <p class="big-names">BOOK A TABLE</p>   
+            </div>
+        
     </header>
-    <main>
-        <p>Page loaded <span class="page-loaded"></span></p>
-        <section>
-                <h1>AJAX HTML Sample</h1>
-                <div>Your booking details:</div>
-                <div class="html-placeholder"></div>
-                <button class="get-html-ajax">Get HTML with AJAX</button>
-                <button class="fetch-html">Fetch HTML</button>
-            </section>
+    <main>  
+
+        
+
         <div>
             <form method="POST" action="https://formspree.io/antoshkiv1@gmail.com">
                 <fieldset>
@@ -65,35 +65,30 @@
             </form>
         </div>
     </main>
-    <footer>
-        <div class="find">
-            <div class="blog-text">
-                <p class="big text">CONTACT INFO</p>
-                <p class="next-text">Delicious Cafe, 1649 Norman Street, Los Angeles, 90011 info@cafedomain.com 8 (800) 316-06-42.</p>
-            </div>
-        </div>
-        <div>
-            <div class="blog-text">
-                <p class="big text">NAVIGATION</p>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="menu.html">MENU</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="book.html">Reservation</a></li>
-                </ul>
-            </div>
-        </div>
-            <div class="find">
-            <div class="blog-text">
-                <p class="big text">WE IN SOCIAL NETWORKS</p>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+
+    <footer class="footer-distributed">
+
+                 
+                    <div class="footer-left">
+        
+                        <p class="footer-links">
+                            <a href="index.html">Home</a>
+                            ·
+                            <a href="menu.html">Menu</a>
+                            ·
+                            <a href="about.html">About</a>
+                            ·
+                            <a href="contact.html">Contact</a>
+                            ·
+                            <a href="book.html">Reservation</a>
+                        </p>
+        
+                        <p>Delicious cafe &copy; 2019</p>
+                    </div>
+        
+                </footer>
+    
+    <script src="js/book.js"></script>
     <script src="js/form.js"></script>
 </body>
 </html>
