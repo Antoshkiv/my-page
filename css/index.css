@@ -419,7 +419,6 @@ main .contact-find {
 
 main .find {
     background-color: #fff;
-    border-block-start-style: solid;
     border-style: solid;
     max-width: 600px;
     max-height: auto;

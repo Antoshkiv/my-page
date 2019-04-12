@@ -32,13 +32,13 @@
     </header>
     <main>  
         <div>
-            <form form class="login-form">
+            <form class="login-form">
                 <fieldset>
                 <input type="text" name="name" placeholder="Enter your full name" required/>
                 <input type="email" name="email" placeholder="Email addres">
                 <input type="number" name="phone" placeholder="Phone number" required>
-                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2019-03-01" max="2019-12-31" required>   
-                <input type="time" name="time"/>
+                <input type="date" id="start" name="trip-start" value="2019-04-12" min="2019-03-01" max="2019-12-31" required>   
+                <input type="time" name="appt-time" value="09:00"/>
                 <select name="person" required>
                     <option value="1">Person 1</option>
                     <option value="2">Person 2</option>
@@ -56,20 +56,25 @@
                     <option value="14">Person 14</option>
                 </select>
                 <textarea placeholder="Some more desires ?"></textarea>
-                <input type="submit" value="Submit"/>
-                <section>
-                    <div class="server-response">
-                        <p class="big-names"> </p> 
-                    </div>
-                </section>
-                    
+                <input  id="myBtn" type="submit" value="Submit"/>
                 </fieldset>
             </form>
-            
-            <section>
+        </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+          <section>
+            <div class="server-response">
+            <p class="big-names"> </p> 
+            </div>
+          </section>
+      </div>
+    </div>
+    <section>
         <div class="server-response"></div>
     </section>
-        </div>
     </main>
     <footer class="footer-distributed">
                     <div class="footer-left">
